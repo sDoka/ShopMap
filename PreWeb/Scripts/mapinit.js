@@ -43,6 +43,7 @@ function search_map_admin() {
     myPoints = [
         { coords: [59.939188, 30.315620], text: 'первый', adress: 'Невский 33', tel: '135235412', email: 'sdsg@sap.com', telm: '54645646' },
         { coords: [59.989188, 30.315620], text: 'второй', adress: 'Невский 33', tel: '135235412', email: 'sdsg@sap.com', telm: '568345356' },
+        { coords: [59.989188, 30.315620], text: 'Третий', adress: 'Невский 33', tel: '135235412', email: 'sdsg@sap.com', telm: '568345356' }
     ];
     var myPoint = document.getElementById('val').value;
     for (var i = 0; i < 2; i++) {

@@ -67,29 +67,34 @@
         background-color:#818187;
     }
 }
-   
-   @media print {
+
+@media print {
     body {
         font-family: Times, 'Times New Roman', serif;
     }
-    table { color: #000;     
-         }
- 
-	
-	@media handheld {
-	body {
-     font-family: Arial, Verdana, sans-serif; 
-     font-size: 0.9em; 
-     color: #000080;
-    }
+
     table {
-     background: #faf0e6; 
-     border: 2px solid #800000; 
-     color: #a0522d; 
-     padding: 7px; 
+        color: #000;
     }
-    p {
-     margin-top: 0.5em; 
+
+
+    @media handheld {
+        body {
+            font-family: Arial, Verdana, sans-serif;
+            font-size: 0.9em;
+            color: #000080;
+        }
+
+        table {
+            background: #faf0e6;
+            border: 2px solid #800000;
+            color: #a0522d;
+            padding: 7px;
+        }
+
+        p {
+            margin-top: 0.5em;
+        }
     }
-   }
+}
 	
